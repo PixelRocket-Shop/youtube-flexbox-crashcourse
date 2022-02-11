@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.dice-wrapper {
+    display: flex;
+    width: 400px;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.dice {
+    background: #CD2626;
+    border-radius: 6px;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.dice-pip {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: white;
+}
